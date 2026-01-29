@@ -7,13 +7,3 @@
 [build.environment]
   # Node.js version to use
   NODE_VERSION = "18"
-
-# Optional: Enable function support if needed
-[functions]
-  nodejs_version = "18"
-
-# Redirect all traffic to handle SPA routing if needed
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
